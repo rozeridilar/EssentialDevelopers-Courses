@@ -14,6 +14,8 @@
 		9C47B5552A3840E8003DE759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47B5542A3840E8003DE759 /* Assets.xcassets */; };
 		9C47B5582A3840E8003DE759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C47B5562A3840E8003DE759 /* LaunchScreen.storyboard */; };
 		9C47B5662A384109003DE759 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B5652A384109003DE759 /* EssentialFeedTests.swift */; };
+		9C47B56E2A384368003DE759 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B56D2A384368003DE759 /* FeedItem.swift */; };
+		9C47B5702A3843AE003DE759 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B56F2A3843AE003DE759 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		9C47B5592A3840E8003DE759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C47B5632A384109003DE759 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C47B5652A384109003DE759 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
+		9C47B56D2A384368003DE759 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		9C47B56F2A3843AE003DE759 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 		9C47B56C2A384330003DE759 /* Feed Feature */ = {
 			isa = PBXGroup;
 			children = (
+				9C47B56D2A384368003DE759 /* FeedItem.swift */,
+				9C47B56F2A3843AE003DE759 /* FeedLoader.swift */,
 			);
 			path = "Feed Feature";
 			sourceTree = "<group>";
@@ -207,8 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C47B56E2A384368003DE759 /* FeedItem.swift in Sources */,
 				9C47B5502A3840E7003DE759 /* ViewController.swift in Sources */,
 				9C47B54C2A3840E7003DE759 /* AppDelegate.swift in Sources */,
+				9C47B5702A3843AE003DE759 /* FeedLoader.swift in Sources */,
 				9C47B54E2A3840E7003DE759 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
