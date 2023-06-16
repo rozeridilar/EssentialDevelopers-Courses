@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9C2982792A3B332A002D9276 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2982782A3B332A002D9276 /* HTTPClient.swift */; };
 		9C29827B2A3B33E7002D9276 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29827A2A3B33E7002D9276 /* FeedItemsMapper.swift */; };
+		9C29827F2A3C7A50002D9276 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29827E2A3C7A50002D9276 /* URLSessionHTTPClientTests.swift */; };
 		9C47B54C2A3840E7003DE759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B54B2A3840E7003DE759 /* AppDelegate.swift */; };
 		9C47B54E2A3840E7003DE759 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B54D2A3840E7003DE759 /* SceneDelegate.swift */; };
 		9C47B5502A3840E7003DE759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B54F2A3840E7003DE759 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		9C2982782A3B332A002D9276 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		9C29827A2A3B33E7002D9276 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		9C29827E2A3C7A50002D9276 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		9C47B5482A3840E7003DE759 /* EssentialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C47B54B2A3840E7003DE759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C47B54D2A3840E7003DE759 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				9C47B5712A3844AF003DE759 /* RemoteFeedLoaderTests.swift */,
+				9C29827E2A3C7A50002D9276 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C47B5722A3844AF003DE759 /* RemoteFeedLoaderTests.swift in Sources */,
+				9C29827F2A3C7A50002D9276 /* URLSessionHTTPClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
