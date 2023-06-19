@@ -20,8 +20,5 @@ jobs:
     - name: Select Xcode
       run: sudo xcode-select -s /Applications/Xcode.app
 
-    - name: Build
+    - name: Build and test
       run: xcodebuild clean build test -project EssentialFeed/EssentialFeed.xcodeproj -scheme "CI" -destination 'platform=iOS Simulator,name=iPhone 14' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
-
-    - name: Run tests
-      run: swift test -v
