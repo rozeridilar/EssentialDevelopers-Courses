@@ -31,6 +31,7 @@
       }
     },
     {
+      "enabled" : false,
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
         "identifier" : "9CB3A5DE2A3F239F00F6E594",
