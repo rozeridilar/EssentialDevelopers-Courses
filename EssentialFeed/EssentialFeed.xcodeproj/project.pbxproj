@@ -21,6 +21,7 @@
 		9C47B5722A3844AF003DE759 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B5712A3844AF003DE759 /* LoadFeedFromRemoteUseCaseTests.swift */; };
 		9C47B5752A388B45003DE759 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47B5742A388B45003DE759 /* RemoteFeedLoader.swift */; };
 		9C5A8CC52A4E029000A6E1B0 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A8CC42A4E029000A6E1B0 /* LocalFeedLoader.swift */; };
+		9C5A8CC72A4E030C00A6E1B0 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A8CC62A4E030C00A6E1B0 /* FeedStore.swift */; };
 		9CB3A5C92A3DD52D00F6E594 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3A5C82A3DD52D00F6E594 /* XCTestCase+MemoryLeakTracking.swift */; };
 		9CB3A5CB2A3DE90600F6E594 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3A5CA2A3DE90600F6E594 /* URLSessionHTTPClient.swift */; };
 		9CB3A5E22A3F239F00F6E594 /* EssentialFeedEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3A5E12A3F239F00F6E594 /* EssentialFeedEndToEndTests.swift */; };
@@ -63,6 +64,7 @@
 		9C47B5712A3844AF003DE759 /* LoadFeedFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
 		9C47B5742A388B45003DE759 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		9C5A8CC42A4E029000A6E1B0 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		9C5A8CC62A4E030C00A6E1B0 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		9CB3A5C82A3DD52D00F6E594 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		9CB3A5CA2A3DE90600F6E594 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		9CB3A5CC2A3F17CD00F6E594 /* EssentialFeedTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedTests.xctestplan; sourceTree = "<group>"; };
@@ -131,15 +133,15 @@
 			isa = PBXGroup;
 			children = (
 				9C47B54B2A3840E7003DE759 /* AppDelegate.swift */,
-				9C47B54D2A3840E7003DE759 /* SceneDelegate.swift */,
-				9C47B54F2A3840E7003DE759 /* ViewController.swift */,
+				9C47B5542A3840E8003DE759 /* Assets.xcassets */,
+				9C47B5732A38896D003DE759 /* Feed API */,
 				9C5A8CC32A4E027D00A6E1B0 /* Feed Cache */,
 				9C47B56C2A384330003DE759 /* Feed Feature */,
-				9C47B5732A38896D003DE759 /* Feed API */,
-				9C47B5512A3840E7003DE759 /* Main.storyboard */,
-				9C47B5542A3840E8003DE759 /* Assets.xcassets */,
-				9C47B5562A3840E8003DE759 /* LaunchScreen.storyboard */,
 				9C47B5592A3840E8003DE759 /* Info.plist */,
+				9C47B5562A3840E8003DE759 /* LaunchScreen.storyboard */,
+				9C47B5512A3840E7003DE759 /* Main.storyboard */,
+				9C47B54D2A3840E7003DE759 /* SceneDelegate.swift */,
+				9C47B54F2A3840E7003DE759 /* ViewController.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				9C5A8CC42A4E029000A6E1B0 /* LocalFeedLoader.swift */,
+				9C5A8CC62A4E030C00A6E1B0 /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C47B56E2A384368003DE759 /* FeedItem.swift in Sources */,
+				9C5A8CC72A4E030C00A6E1B0 /* FeedStore.swift in Sources */,
 				9C47B5502A3840E7003DE759 /* ViewController.swift in Sources */,
 				9C47B54C2A3840E7003DE759 /* AppDelegate.swift in Sources */,
 				9C29827B2A3B33E7002D9276 /* FeedItemsMapper.swift in Sources */,
