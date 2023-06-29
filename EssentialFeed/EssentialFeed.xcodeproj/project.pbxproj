@@ -106,10 +106,10 @@
 		9C47B53F2A3840E7003DE759 = {
 			isa = PBXGroup;
 			children = (
-				9CB3A5CC2A3F17CD00F6E594 /* EssentialFeedTests.xctestplan */,
 				9C47B54A2A3840E7003DE759 /* EssentialFeed */,
-				9C47B5642A384109003DE759 /* EssentialFeedTests */,
 				9CB3A5E02A3F239F00F6E594 /* EssentialFeedEndToEndTests */,
+				9C47B5642A384109003DE759 /* EssentialFeedTests */,
+				9CB3A5CC2A3F17CD00F6E594 /* EssentialFeedTests.xctestplan */,
 				9C47B5492A3840E7003DE759 /* Products */,
 			);
 			sourceTree = "<group>";
